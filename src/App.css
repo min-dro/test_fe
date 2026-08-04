@@ -1,0 +1,25 @@
+table {
+  margin : auto;
+}
+
+.list-area {
+  width : 90%;
+}
+.list-area>tbody>tr:hover {
+  cursor : pointer;
+}
+
+.form {
+  width : 60%;
+}
+
+.form input, .form textarea {
+  width : 100%;
+  box-sizing : border-box;
+  padding : 10px;
+}
+
+.form textarea {
+  resize : none;
+  height : 300px;
+}
