@@ -43,8 +43,9 @@ function BoardListComponent() {
     }, []);
 
     return (
-        <div>
-            <div align="right" style={ {width : "2000px"} }>
+        <div style={{ width: "80%", margin: "0 auto" }}>
+
+            <div align="right">
                 <button className="btn btn-outline-secondary btn-sm"
                         onClick={ () => { navigate("/enrollForm"); } }>
                     글작성
