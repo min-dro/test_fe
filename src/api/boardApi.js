@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:2026/api/boards";
+const BASE_URL = "http://3.35.201.88:2026/api/boards";
 
 // 일반게시글 목록 조회용
 const selectBoardListApi = () => {
